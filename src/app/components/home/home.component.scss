@@ -257,133 +257,73 @@ section{
   top: 5rem;
 }
 
-.teams-hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  top: 5rem;
-  text-align: center;
-  cursor: default;
-  background: rgba(128,208,199,0.2);
 
+#team {
+  background: #fff;
+  padding: 60px 0;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1)
 }
-.teams-hovereffect .teams {
-  background: rgba(128,208,199,0.2);
-  width: 100%;
+
+#team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 8px 8px 6px 5px rgba(0, 0, 0, 0.3)
+}
+
+#team .member .member-info {
+  opacity: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: absolute;
-  overflow: hidden;
+  bottom: 0;
+  top: 0;
   left: 0;
-top: auto;
-bottom: 0;
-padding: 1em;
-height: 4.75em;
-background: #79faef;
-color: #3c4a50;
--webkit-transition: -webkit-transform 0.35s;
-transition: transform 0.35s;
--webkit-transform: translate3d(0,100%,0);
-transform: translate3d(0,100%,0);
-
-
+  right: 0;
+  transition: 0.2s
 }
 
-.teams-hovereffect .member-img {
+#team .member .member-info-content {
+  margin-top: 50px;
+  transition: margin 0.2s
+}
+
+#team .member:hover .member-info {
+  background: rgba(0, 62, 128, 0.7);
+  opacity: 1;
+  transition: 0.4s
+}
+
+#team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff
+}
+
+#team .member span {
+  font-style: italic;
   display: block;
-  position: relative;
-  width: calc(100% + 10px);
--webkit-transition: -webkit-transform 0.35s;
-transition: transform 0.35s;
+  font-size: 13px;
+  color: #fff
 }
 
-.teams-hovereffect:hover .member-img {
--webkit-transform: translate3d(0,-10%,0);
-transform: translate3d(0,-10%,0);
-}
-
-.teams-hovereffect .member-name {
-  text-transform: uppercase;
+#team .member .social a {
+  transition: none;
   color: #fff;
-  text-align: center;
-  position: relative;
-  font-size: 17px;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.6);
-float: left;
-margin: 0px;
-display: inline-block;
-}
-
-.teams-hovereffect a.info {
-  display: inline-block;
-  text-decoration: none;
-  padding: 7px 14px;
-  text-transform: uppercase;
-color: #fff;
-border: 1px solid #fff;
-margin: 50px 0 0 0;
-background-color: transparent;
-}
-.teams-hovereffect a.info:hover {
-  box-shadow: 0 0 5px #fff;
-}
-
-
-.teams-hovereffect p.icon-links a {
-float: right;
-color: #3c4a50;
-font-size: 1.4em;
-}
-
-.teams-hovereffect:hover p.icon-links a:hover,
-.teams-hovereffect:hover p.icon-links a:focus {
-color: #252d31;
-}
-
-.teams-hovereffect .member-name,
-.teams-hovereffect p.icon-links a {
--webkit-transition: -webkit-transform 0.35s;
-transition: transform 0.35s;
--webkit-transform: translate3d(0,200%,0);
-transform: translate3d(0,200%,0);
-visibility: visible;
-}
-
-.teams-hovereffect p.icon-links a span:before {
-display: inline-block;
-padding: 8px 10px;
-speak: none;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
-
-
-.teams-hovereffect:hover .teams,
-.teams-hovereffect:hover .member-name,
-.teams-hovereffect:hover p.icon-links a {
--webkit-transform: translate3d(0,0,0);
-transform: translate3d(0,0,0);
-}
-
-.teams-hovereffect:hover .member-name {
--webkit-transition-delay: 0.05s;
-transition-delay: 0.05s;
-}
-
-.teams-hovereffect:hover p.icon-links a:nth-child(3) {
--webkit-transition-delay: 0.1s;
-transition-delay: 0.1s;
-}
-
-.teams-hovereffect:hover p.icon-links a:nth-child(2) {
--webkit-transition-delay: 0.15s;
-transition-delay: 0.15s;
-}
-
-.teams-hovereffect:hover p.icon-links a:first-child {
--webkit-transition-delay: 0.2s;
-transition-delay: 0.2s;
+  padding: 0 10px;
 }
 
 // ************************************* contact section ****************************************
@@ -470,7 +410,14 @@ input:focus{
     padding: 0 10px;
   }
 
-  .hovereffect {
+  .project-hovereffect {
     width: auto;
+  }
+  .project-hovereffect h2 {
+    padding: 5px 2em;
+    font-size: 25px;
+  }
+  .project-hovereffect p {
+    padding: 5px 2px;
   }
 }

@@ -10,22 +10,23 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" routerLink="/home" fragment="main">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- href="#projects"  -->
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home" fragment="projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" routerLink="/home" fragment="join-us">Join Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#join-us">Join Us</a>
+          <a class="nav-link" routerLink="/home" fragment="team">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#team">Team</a>
+          <a class="nav-link" routerLink="/home" fragment="contribute">Contribute</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contribute">Contribute</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" routerLink="/home" fragment="contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -42,7 +43,7 @@
         <div class="canvasbird">
           <h3 class="font text-ani">Canvasbird Open Source</h3>
           <h5 class="font-tag">Building free open source softwares</h5>
-          <button class="btn know-more-btn"><a href="#know-more">KNOW MORE</a></button>
+          <button class="btn know-more-btn"><a routerLink="/home" fragment="know-more">KNOW MORE</a></button>
         </div>
       </div>
     </div>
@@ -128,86 +129,47 @@
   <div class="container">
   <h3 class=" mb-5 title text-ani">Team Members</h3>
     <div class="row">
-
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="teams-hovereffect">
-            <img class="img-responsive member-img" src="../../../assets/canvasbird/Canvas Bird.svg" alt="">
-                <div class="teams">
-                    <h2 class="member-name">Name</h2>
-                    <p class="icon-links">
-                      <a href="#">
-                        <span class="fa fa-facebook"></span>
-                      </a>
-                      <a href="#">
-                        <span class="fa fa-instagram"></span>
-                      </a>
-                      <a href="#">
-                        <span class="fa fa-github"></span>
-                      </a>
-                    </p>
+      <div class="col-lg-3 col-md-6 col-sm-12" >
+        <div class="member"> <img src="https://avatars0.githubusercontent.com/u/32712438?s=400&v=4" class="img-fluid" alt="">
+            <div class="member-info">
+                <div class="member-info-content">
+                    <h4>Akshay Sujith</h4> <span>Developer</span>
+                    <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a><a href=""><i class="fa fa-linkedin"></i></a> </div>
                 </div>
+            </div>
         </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="teams-hovereffect">
-            <img class="img-responsive member-img" src="../../../assets/canvasbird/Canvas Bird.svg" alt="">
-                <div class="teams">
-                    <h2 class="member-name">Name</h2>
-                    <p class="icon-links">
-                      <a href="#">
-                        <span class="fa fa-facebook"></span>
-                      </a>
-                      <a href="#">
-                        <span class="fa fa-instagram"></span>
-                      </a>
-                      <a href="#">
-                        <span class="fa fa-github"></span>
-                      </a>
-                    </p>
-                </div>
-        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="member"> <img src="https://avatars0.githubusercontent.com/u/44888949?s=400&u=8f9bdcd48a2c88f0f29e642096963f510c494adc&v=4" class="img-fluid" alt="">
 
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="teams-hovereffect">
-            <img class="img-responsive member-img" src="../../../assets/canvasbird/Canvas Bird.svg" alt="">
-                <div class="teams">
-                    <h2 class="member-name">Name</h2>
-                    <p class="icon-links">
-                      <a href="#">
-                        <span class="fa fa-facebook"></span>
-                      </a>
-                      <a href="#">
-                        <span class="fa fa-instagram"></span>
-                      </a>
-                      <a href="#">
-                        <span class="fa fa-github"></span>
-                      </a>
-                    </p>
+            <div class="member-info">
+                <div class="member-info-content">
+                    <h4>Kajol Kumari</h4> <span>Developer</span>
+                    <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a>  <a href=""><i class="fa fa-linkedin"></i></a> </div>
                 </div>
+            </div>
         </div>
-
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="teams-hovereffect">
-            <img class="img-responsive member-img" src="../../../assets/canvasbird/Canvas Bird.svg" alt="">
-                <div class="teams">
-                    <h2 class="member-name">Name</h2>
-                    <p class="icon-links">
-                      <a href="#">
-                        <span class="fa fa-facebook"></span>
-                      </a>
-                      <a href="#">
-                        <span class="fa fa-instagram"></span>
-                      </a>
-                      <a href="#">
-                        <span class="fa fa-github"></span>
-                      </a>
-                    </p>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12" >
+      <div class="member"> <img src="https://avatars1.githubusercontent.com/u/31726036?s=400&u=0718acf01040da3a43822841035fd3f8ea13766c&v=4" class="img-fluid" alt="">
+            <div class="member-info">
+                <div class="member-info-content">
+                    <h4>Saikiran Reddy</h4> <span>Developer</span>
+                    <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i class="fa fa-linkedin"></i></a> </div>
                 </div>
+            </div>
         </div>
-
-      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12" >
+      <div class="member"> <img src="https://avatars2.githubusercontent.com/u/57140143?s=400&u=e484f04a74d52e52026b9c985ccf6be5d6942be0&v=4" class="img-fluid" alt="">
+            <div class="member-info">
+                <div class="member-info-content">
+                    <h4>Rachitt Shah</h4> <span>Developer</span>
+                    <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i class="fa fa-linkedin"></i></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     </div>
   </div>
