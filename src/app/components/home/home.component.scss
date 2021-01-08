@@ -249,13 +249,102 @@ section{
   padding: 5px;
 }
 
+// ************************************** join-us section *****************************************
+
+
+section#join-us {
+  height: 200vh;
+}
+
+#join-us .container {
+  position: relative;
+  top: 2rem;
+}
+
+
+#join-us .programs {
+  position: relative;
+  top: 15rem;
+  width: 200px;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+
+  // width: 100%;
+  // height: 100%;
+  width: 200px;
+  height: 200px;
+
+
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+ #join-us .programs:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+#join-us img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+
+}
+
+#join-us .title {
+  position: absolute;
+  // width: 500px;
+  width: 200px;
+
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+#join-us .programs:hover .title {
+  top: 90px;
+}
+
+#join-us .button {
+  position: absolute;
+  width: 200px;
+  padding-bottom: 10px;
+  top: 160px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+#join-us .button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+  text-decoration: none;
+}
+
+#join-us .programs:hover .button {
+  opacity: 1;
+}
+
 
 // **************************************** team section ************************************************
 
-#team .container{
-  position: relative;
-  top: 5rem;
-}
+// #team .container{
+//   position: relative;
+//   top: 5rem;
+// }
 
 
 #team {
@@ -270,7 +359,7 @@ section{
   position: relative;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 8px 8px 6px 5px rgba(0, 0, 0, 0.3)
+  box-shadow: 8px 8px 6px 5px rgba(0, 0, 0, 0.3);
 }
 
 #team .member .member-info {
@@ -388,6 +477,18 @@ input:focus{
   box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 
+// **************************************** contribute ****************************************
+
+#contribute .container {
+  position: relative;
+  top: 10rem;
+}
+
+#contribute .row {
+  display: flex;
+  justify-content: center;
+}
+
 // ********************************media-queries***********************************
 
 @media only screen and (max-width: 768px) {
@@ -419,5 +520,11 @@ input:focus{
   }
   .project-hovereffect p {
     padding: 5px 2px;
+  }
+
+  #team .member {
+    display: flex;
+    justify-content: center;
+    width: 100px;
   }
 }
