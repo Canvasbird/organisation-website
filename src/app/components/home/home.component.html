@@ -12,7 +12,6 @@
         <li class="nav-item active">
           <a class="nav-link" routerLink="/home" fragment="main">Home <span class="sr-only">(current)</span></a>
         </li>
-        <!-- href="#projects"  -->
         <li class="nav-item">
           <a class="nav-link" routerLink="/home" fragment="projects">Projects</a>
         </li>
@@ -20,7 +19,7 @@
           <a class="nav-link" routerLink="/home" fragment="join-us">Join Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/home" fragment="team">Team</a>
+          <a class="nav-link" routerLink="/team">Team</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/home" fragment="contribute">Contribute</a>
@@ -43,7 +42,10 @@
         <div class="canvasbird">
           <h3 class="font text-ani">Canvasbird Open Source</h3>
           <h5 class="font-tag">Building free open source softwares</h5>
-          <button class="btn know-more-btn"><a routerLink="/home" fragment="know-more">KNOW MORE</a></button>
+          <button class="btn know-more-btn"><a routerLink="/home" fragment="know">KNOW MORE</a></button>
+          <div class="arrow bounce">
+            <a class="fa fa-arrow-down fa-2x" href="#"></a>
+          </div>
         </div>
       </div>
     </div>
@@ -51,19 +53,71 @@
 </section>
 
 
-<section id="know-more">
+<section id="know">
   <div class="container" >
     <div class="row">
-      <div class="col-sm-12 know-more border-rad shadow">
-        <h3 class="title text-ani">Who are we?</h3>
+      <div class=" col-lg-12 col-12 know-more border-rad shadow">
+        <h3 class="heading text-ani">Who are we?</h3>
         <br>
-        <p class="know-more-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo dolorum expedita ullam enim, blanditiis
+        <p class="know-more-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo dolorum expedita ullam enim, blanditiis
           aspernatur quae nostrum quia. Vero atque enim dolore nemo iusto culpa eos minima omnis reiciendis neque! Optio
           dolore ex voluptas dolorum officia deleniti aut possimus veniam et assumenda quasi, consectetur quas sed aliquid
-          illo labore.</p>
+          illo labore.
+        </p>
+      </div>
+      </div>
+  </div>
+
+
+    <div class="container">
+      <div class="row " >
+        <h3 class=" mt-5 title text-ani" >Programs we got selected</h3>
+        <div class="col-lg-3 col-sm-6 col-6">
+        <div class="programs">
+          <img src="assets/Open Source Program/kwoc.jpg" class="img-fluid" alt="KWOC" />
+          <div class="overlay">
+          <div class="button"><a href="https://kwoc.kossiitkgp.org/"> Open  </a></div>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-6">
+          <div class="programs">
+            <img src="assets/Open Source Program/nwoc.jpg" class="img-fluid" alt="NWOC" />
+            <div class="overlay">
+            <div class="button"><a href="https://njackwinterofcode.github.io/"> Open  </a></div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6">
+          <div class="programs">
+            <img src="assets/Open Source Program/script.jpg" class="img-fluid" alt="SWOC" />
+            <div class="overlay">
+            <div class="button"><a href="https://swoc.tech/"> Open  </a></div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6">
+          <div class="programs">
+            <img src="assets/Open Source Program/WOC.jpg" class="img-fluid" alt="WOC" />
+            <div class="overlay">
+            <div class="button"><a href="https://winterofcode.com/"> Open  </a></div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6">
+          <div class="programs">
+            <img src="assets/Open Source Program/dwoc.png" class="img-fluid" alt="DWOC" />
+
+            <div class="overlay">
+            <div class="button"><a href="https://devscript.tech/woc/"> Open  </a></div>
+          </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+
 </section>
 
 <hr>
@@ -74,32 +128,7 @@
     <div class="row">
       <h3 class="mb-5 title text-ani" >Projects</h3>
 
-
-        <!-- <div class="grid">
-          <figure class="effect-sadie">
-            <img  src="../../../assets/canvasbird/Canvas Bird.svg" alt="img02"/>
-
-            <figcaption>
-              <h2>Canvas <span>Board</span></h2>
-              <p><img src="https://github.com/favicon.ico" alt="" style="float: right;"></p>
-            </figcaption>
-          </figure>
-        </div> -->
-        <!-- <div class="grid">
-          <figure class="effect-zoe">
-            <img src="../../../assets/canvasbird/Canvas Bird.svg"  alt="img25"/>
-            <figcaption>
-              <h2>Creative <span>Zoe</span></h2>
-              <p class="icon-links">
-                <a href="https://github.com/DevoAbhi"><p><img src="https://github.com/favicon.ico" alt="" style="float: right;"></p></a>
-                <a href="#"><span class="icon-eye"></span></a>
-                <a href="#"><span class="icon-paper-clip"></span></a>
-              </p>
-            </figcaption>
-          </figure>
-
-      </div> -->
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: flex; justify-content: center;">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center;">
         <div class="project-hovereffect">
           <img class="img-responsive" height="100%" src="../../../assets/canvasbird/Canvas Bird.svg" alt="">
             <div class="projects">
@@ -123,57 +152,13 @@
 <!-- Join Us -->
 <section id="join-us">
 
+
+
+
+
 </section>
 
-<section id="team">
-  <div class="container">
-  <h3 class=" mb-5 title text-ani">Team Members</h3>
-    <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-12" >
-        <div class="member"> <img src="https://avatars0.githubusercontent.com/u/32712438?s=400&v=4" class="img-fluid" alt="">
-            <div class="member-info">
-                <div class="member-info-content">
-                    <h4>Akshay Sujith</h4> <span>Developer</span>
-                    <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a><a href=""><i class="fa fa-linkedin"></i></a> </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <div class="member"> <img src="https://avatars0.githubusercontent.com/u/44888949?s=400&u=8f9bdcd48a2c88f0f29e642096963f510c494adc&v=4" class="img-fluid" alt="">
 
-            <div class="member-info">
-                <div class="member-info-content">
-                    <h4>Kajol Kumari</h4> <span>Developer</span>
-                    <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a>  <a href=""><i class="fa fa-linkedin"></i></a> </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12" >
-      <div class="member"> <img src="https://avatars1.githubusercontent.com/u/31726036?s=400&u=0718acf01040da3a43822841035fd3f8ea13766c&v=4" class="img-fluid" alt="">
-            <div class="member-info">
-                <div class="member-info-content">
-                    <h4>Saikiran Reddy</h4> <span>Developer</span>
-                    <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i class="fa fa-linkedin"></i></a> </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12" >
-      <div class="member"> <img src="https://avatars2.githubusercontent.com/u/57140143?s=400&u=e484f04a74d52e52026b9c985ccf6be5d6942be0&v=4" class="img-fluid" alt="">
-            <div class="member-info">
-                <div class="member-info-content">
-                    <h4>Rachitt Shah</h4> <span>Developer</span>
-                    <div class="social"> <a href=""><i class="fa fa-twitter"></i></a> <a href=""><i class="fa fa-facebook"></i></a> <a href=""><i class="fa fa-linkedin"></i></a> </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    </div>
-  </div>
-</section>
 
 <!-- Contribute -->
 <section id="contribute">
@@ -201,7 +186,6 @@
 <!-- Contact -->
 <section id="contact">
   <div class="login-box">
-    <!-- <img src="images/icon.png"> -->
     <h2 class="contact-title">WRITE TO US</h2>
     <form>
         <input class="contact-input" type="text" placeholder=" Full Name">
