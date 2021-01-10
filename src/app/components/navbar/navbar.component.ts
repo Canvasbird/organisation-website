@@ -1,11 +1,11 @@
 import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-team',
-  templateUrl: './team.component.html',
-  styleUrls: ['./team.component.scss']
+  selector: 'app-navbar',
+  templateUrl: './navbar.component.html',
+  styleUrls: ['./navbar.component.scss']
 })
-export class TeamComponent {
+export class NavbarComponent {
 
   mainActive = false;
   projectActive = false;
@@ -13,8 +13,6 @@ export class TeamComponent {
   teamActive = false;
   contributeActive = false;
   contactActive = false;
-
-  constructor(){}
 
   onToggle(sectionName: string) {
     this.mainActive= false;

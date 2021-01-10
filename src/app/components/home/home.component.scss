@@ -1,13 +1,19 @@
 section{
-  height: 75vh;
+  // height: 75vh;
+  height: 100vh;
   .container {
     position: relative;
     top: 10rem;
   }
 }
 
+// ********************************************************************************************
+
+
+// *************************************************************************************
+
 .title {
-  font-size: 40px;
+  font-size: calc(100% + 1vw + 1vh);
   text-transform:uppercase;
   font-weight: 500;
 }
@@ -102,12 +108,14 @@ a { color: rgba(128,208,199,1); text-decoration: none; }
     animation: shine 5s linear infinite;
   border-radius: 25px;
 
-  a {
-    font-size: 15px;
-    color: white;
-    font-weight:700;
-    text-decoration: none;
-  }
+
+}
+
+a button {
+  font-size: 15px;
+  color: white;
+  font-weight:700;
+  text-decoration: none;
 }
 
 .know-more-btn:hover {
@@ -116,7 +124,7 @@ a { color: rgba(128,208,199,1); text-decoration: none; }
 
 // ******************************* know section *******************************************
 
-.know{
+.know-more{
 
   box-shadow: 0 3px 6px 3px black;
   // margin-top: 10rem;
@@ -124,10 +132,13 @@ a { color: rgba(128,208,199,1); text-decoration: none; }
     border-radius:10px;
   }
 
-  .know-text {
-    font-size: 20px;
-    opacity: 70%;
-  }
+
+}
+
+.know-more-text {
+  display: inline-block;
+  font-size: 20px;
+  opacity: 70%;
 }
 
 
@@ -138,23 +149,17 @@ a { color: rgba(128,208,199,1); text-decoration: none; }
 }
 
 
-
-// #know .row {
-//   background-color: blue;
-// }
-
-
-section#know{
+section#know-more{
   height: 150vh;
 }
 
-#know .container {
+#know-more .container {
   position: relative;
   top: 5rem;
 }
 
 
-#know .programs {
+#know-more .programs {
   position: relative;
   top: 15rem;
   width: 200px;
@@ -175,19 +180,19 @@ section#know{
   transition: background 0.5s ease;
 }
 
- #know .programs:hover .overlay {
+ #know-more .programs:hover .overlay {
   display: block;
   background: rgba(0, 0, 0, .3);
 }
 
-#know img {
+#know-more img {
   position: absolute;
   width: 200px;
   height: 200px;
 
 }
 
-#know .title {
+#know-more .title {
   position: absolute;
   // width: 500px;
   top: 5rem;
@@ -204,11 +209,11 @@ section#know{
   font-weight: 500;
 }
 
-#know .programs:hover .title {
+#know-more .programs:hover .title {
   top: 90px;
 }
 
-#know .button {
+#know-more .button {
   position: absolute;
   width: 200px;
   padding-bottom: 10px;
@@ -218,7 +223,7 @@ section#know{
   transition: opacity .35s ease;
 }
 
-#know .button a {
+#know-more .button a {
   width: 200px;
   padding: 12px 48px;
   text-align: center;
@@ -228,7 +233,7 @@ section#know{
   text-decoration: none;
 }
 
-#know .programs:hover .button {
+#know-more .programs:hover .button {
   opacity: 1;
 }
 
@@ -250,10 +255,6 @@ section#know{
   cursor: default;
   background: rgba(128,208,199,0.2);
   border-radius: 25px;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
 }
 
 .project-hovereffect .projects {
@@ -380,83 +381,163 @@ section#know{
 // *************************************** join-us section ************************************
 
 
-
-// #know .container {
-//   position: relative;
-//   top: 5rem;
-//   top: 2rem;
-// }
+#join-us .container {
+  position: relative;
+  top: 5rem;
+}
 
 
 
+// **************************************** contribute section ************************************************
+
+#contribute .container {
+  position: relative;
+  top: 5rem;
+}
+
+#contribute .button {
+  text-align: center;
+
+}
 
 
-
-
-// **************************************** team section ************************************************
 
 
 // ************************************* contact section ****************************************
 
-.login-box{
-  width: 350px;
-  height: 400px;
-  background: rgb(214, 214, 214);
-  margin: 150px auto;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
 
+
+#contact .container {
+  position: relative;
+  top: 5rem;
 }
 
 
-.contact-title{
-  margin: -25px 0 20px 0;
-  text-align: center;
-  color: #8f8888;
-  font-weight: 500;
-}
-
-form{
-  margin-left: 40px;
-}
-
-.contact-input {
-  display: block;
-  width: 80%;
-  margin-bottom: 20px;
+.contact {
   padding: 10px;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+#contact button, input, select, textarea {
+  color: rgba(0,147,233,1);
+  font: inherit;
+  margin: 0;
+}
+
+#contact input {
+  line-height: normal;
+}
+
+#contact textarea {
+  overflow: auto;
+}
+
+.contact-box {
+  // border: solid 3px #122293;
+  margin: 0 auto;
+  max-width: 650px;
+  max-height: 650px;
+  position: relative;
+  width: 100%;
+}
+
+form {
+  padding: 45px;
+}
+
+#contact h2 {
+  color: #122293;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+#contact input[type='text'], [type='email'], select, textarea {
+	background: none;
   border: none;
-  outline: none;
-  font-family: sans-serif;
-  background: transparent;
-  font-size: 16px;
-  border-radius: 25px;
-  text-shadow: 1px 1px 0 #fff;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff ;
+	border-bottom: solid 2px #122293;
+	color: #122293;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#contact input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
 }
 
 
-.contact-button{
-  width: 87%;
-  border: none;
-  height: 35px;
-  border-radius: 25px;
-  background: rgb(82, 182, 221);
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #122293;
+}
+
+
+
+#contact .submit {
+  text-align: center;
+  width: auto;
+}
+
+#contact .submit button {
+  font-size: 15px;
   color: white;
-  font-size: 20px;
-  cursor: pointer;
-  box-shadow: -5px -5px 20px rgb(224, 217, 217), 5px 5px 20px #babecc;
-  outline: none;
-}
+  font-weight:500;
+  width: 400px;
+  text-decoration: none;
 
-input:focus{
-  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 
 }
 
-.contact-button:active{
-  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+#form_button:hover {
+  background: #122293;
+  color: #ffffff;
 }
+
+
 
 // ********************************media-queries***********************************
 
