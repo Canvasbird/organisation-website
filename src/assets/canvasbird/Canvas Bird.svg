@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Canvas Bird</title>
+    <defs>
+        <linearGradient x1="13.5558679%" y1="5.36455006%" x2="78.8965325%" y2="88.3258206%" id="linearGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#2A2A2A" offset="100%"></stop>
+        </linearGradient>
+        <path d="M115.374834,-4.66128138e-15 L296.625166,4.66128138e-15 C336.743509,-2.70833872e-15 351.29139,4.1771525 365.958057,12.0209717 C380.624723,19.8647908 392.135209,31.3752767 399.979028,46.0419433 C407.822847,60.70861 412,75.2564907 412,115.374834 L412,296.625166 C412,336.743509 407.822847,351.29139 399.979028,365.958057 C392.135209,380.624723 380.624723,392.135209 365.958057,399.979028 C351.29139,407.822847 336.743509,412 296.625166,412 L115.374834,412 C75.2564907,412 60.70861,407.822847 46.0419433,399.979028 C31.3752767,392.135209 19.8647908,380.624723 12.0209717,365.958057 C4.1771525,351.29139 1.80555915e-15,336.743509 -3.10752092e-15,296.625166 L3.10752092e-15,115.374834 C-1.80555915e-15,75.2564907 4.1771525,60.70861 12.0209717,46.0419433 C19.8647908,31.3752767 31.3752767,19.8647908 46.0419433,12.0209717 C60.70861,4.1771525 75.2564907,2.70833872e-15 115.374834,-4.66128138e-15 Z" id="path-2"></path>
+        <filter x="-4.5%" y="-3.5%" width="109.0%" height="109.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="84.2348577 325.628588 86.2348577 353.628588 180.234858 382.628588 170.91446 369.998349 98.6496045 325.16766"></polygon>
+        <filter x="-25.1%" y="-31.4%" width="153.5%" height="186.5%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.421428547 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-6" points="48.3578941 78.9113389 87.3578941 61.9113389 17 182.524098"></polygon>
+        <filter x="-41.0%" y="-16.8%" width="179.1%" height="153.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.421428547 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polyline id="path-8" points="46.4333516 102 198.433352 18 134.440659 226.651612 115.433352 199"></polyline>
+        <filter x="-6.6%" y="-21.2%" width="128.1%" height="136.8%" filterUnits="objectBoundingBox" id="filter-9">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.421428547 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="65.5996561%" y1="22.6004912%" x2="20.4859041%" y2="100%" id="linearGradient-10">
+            <stop stop-color="#E3E3E3" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-11" points="317.603516 217.395266 357.016388 193.414999 333.501703 166.096332"></polygon>
+        <filter x="-64.6%" y="-39.1%" width="228.2%" height="202.3%" filterUnits="objectBoundingBox" id="filter-12">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.421428547 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="86.3071924%" y1="44.122393%" x2="-2.22044605e-14%" y2="16.2225779%" id="linearGradient-13">
+            <stop stop-color="#F9F9F9" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-14" points="343.520158 164.168196 320.520158 246.168196 261.418344 176.869262"></polygon>
+        <filter x="-30.9%" y="-35.3%" width="160.4%" height="160.5%" filterUnits="objectBoundingBox" id="filter-15">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="-5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.421428547 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polyline id="path-16" points="148.176132 270.999909 272.264497 174.973486 203.033099 78.4993254 171.176132 188.999909"></polyline>
+        <filter x="-8.1%" y="-10.7%" width="128.7%" height="115.9%" filterUnits="objectBoundingBox" id="filter-17">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.421428547 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-18" points="277.577171 204.032287 290.577171 297.032287 160.577171 297.032287 134.577171 273.032287 258.577171 177.032287"></polygon>
+        <filter x="-11.9%" y="-9.5%" width="122.0%" height="128.2%" filterUnits="objectBoundingBox" id="filter-19">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-1" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.421428547 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="22.6724008%" y1="5.1883185%" x2="52.5877384%" y2="91.4836035%" id="linearGradient-20">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-21" points="54.2449442 235.558963 165.244944 379.558963 70.3965415 355.712089"></polygon>
+        <filter x="-21.2%" y="-12.2%" width="156.8%" height="145.5%" filterUnits="objectBoundingBox" id="filter-22">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="7" dy="17" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.421428547 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Canvas-Bird" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(50.000000, 50.000000)">
+            <g id="App-Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <g id="Group-2" transform="translate(25.000000, 25.000000)" stroke-linecap="square">
+                <g id="minor-markings" transform="translate(1.781920, 0.221037)" stroke="#979797">
+                    <g id="Group-5" transform="translate(5.000000, 114.000000) rotate(-90.000000) translate(-5.000000, -114.000000) translate(-12.000000, 109.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-17" transform="translate(5.000000, 69.000000) rotate(-90.000000) translate(-5.000000, -69.000000) translate(-12.000000, 64.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy" transform="translate(5.000000, 159.000000) rotate(-90.000000) translate(-5.000000, -159.000000) translate(-12.000000, 154.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-2" transform="translate(5.000000, 204.000000) rotate(-90.000000) translate(-5.000000, -204.000000) translate(-12.000000, 199.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-3" transform="translate(5.000000, 249.000000) rotate(-90.000000) translate(-5.000000, -249.000000) translate(-12.000000, 244.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-16" transform="translate(5.000000, 294.000000) rotate(-90.000000) translate(-5.000000, -294.000000) translate(-12.000000, 289.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-4" transform="translate(113.500000, 357.000000) rotate(-180.000000) translate(-113.500000, -357.000000) translate(96.500000, 352.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-15" transform="translate(68.500000, 357.000000) rotate(-180.000000) translate(-68.500000, -357.000000) translate(51.500000, 352.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-5" transform="translate(158.500000, 357.000000) rotate(-180.000000) translate(-158.500000, -357.000000) translate(141.500000, 352.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-6" transform="translate(203.500000, 357.000000) rotate(-180.000000) translate(-203.500000, -357.000000) translate(186.500000, 352.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-7" transform="translate(158.000000, 4.500000) rotate(-360.000000) translate(-158.000000, -4.500000) translate(141.000000, 0.000000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-14" transform="translate(113.000000, 4.500000) rotate(-360.000000) translate(-113.000000, -4.500000) translate(96.000000, 0.000000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-13" transform="translate(203.000000, 4.500000) rotate(-360.000000) translate(-203.000000, -4.500000) translate(186.000000, 0.000000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-12" transform="translate(248.000000, 4.500000) rotate(-360.000000) translate(-248.000000, -4.500000) translate(231.000000, 0.000000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-18" transform="translate(293.000000, 4.500000) rotate(-360.000000) translate(-293.000000, -4.500000) translate(276.000000, 0.000000)">
+                        <line x1="31.7789626" y1="2.78191996" x2="33.5" y2="2.5" id="Line-2" transform="translate(32.500000, 3.000000) rotate(99.302895) translate(-32.500000, -3.000000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-9" transform="translate(353.500000, 204.000000) rotate(-270.000000) translate(-353.500000, -204.000000) translate(336.500000, 199.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-10" transform="translate(353.500000, 159.000000) rotate(-270.000000) translate(-353.500000, -159.000000) translate(336.500000, 154.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-11" transform="translate(353.500000, 114.000000) rotate(-270.000000) translate(-353.500000, -114.000000) translate(336.500000, 109.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-19" transform="translate(353.500000, 69.000000) rotate(-270.000000) translate(-353.500000, -69.000000) translate(336.500000, 64.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-8" transform="translate(353.500000, 249.000000) rotate(-270.000000) translate(-353.500000, -249.000000) translate(336.500000, 244.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                    <g id="Group-5-Copy-20" transform="translate(353.500000, 294.000000) rotate(-270.000000) translate(-353.500000, -294.000000) translate(336.500000, 289.500000)">
+                        <line x1="31.5" y1="2.5" x2="34.5" y2="2.5" id="Line-2" transform="translate(33.000000, 2.500000) rotate(-270.000000) translate(-33.000000, -2.500000) "></line>
+                        <line x1="19.5" y1="2.5" x2="22.5" y2="2.5" id="Line-2-Copy-3" transform="translate(21.000000, 2.500000) rotate(-270.000000) translate(-21.000000, -2.500000) "></line>
+                        <line x1="27.5" y1="2.5" x2="30.5" y2="2.5" id="Line-2-Copy" transform="translate(29.000000, 2.500000) rotate(-270.000000) translate(-29.000000, -2.500000) "></line>
+                        <line x1="13.3845174" y1="4.59755893" x2="20.6154826" y2="4.59755893" id="Line-2-Copy-4" transform="translate(17.000000, 4.597559) rotate(90.000000) translate(-17.000000, -4.597559) "></line>
+                        <line x1="23.5" y1="2.5" x2="26.5" y2="2.5" id="Line-2-Copy-2" transform="translate(25.000000, 2.500000) rotate(-270.000000) translate(-25.000000, -2.500000) "></line>
+                        <line x1="11.5" y1="2.5" x2="14.5" y2="2.5" id="Line-2-Copy-5" transform="translate(13.000000, 2.500000) rotate(-270.000000) translate(-13.000000, -2.500000) "></line>
+                        <line x1="7.5" y1="2.5" x2="10.5" y2="2.5" id="Line-2-Copy-6" transform="translate(9.000000, 2.500000) rotate(-270.000000) translate(-9.000000, -2.500000) "></line>
+                        <line x1="3.5" y1="2.5" x2="6.5" y2="2.5" id="Line-2-Copy-7" transform="translate(5.000000, 2.500000) rotate(-270.000000) translate(-5.000000, -2.500000) "></line>
+                        <line x1="-0.5" y1="2.5" x2="2.5" y2="2.5" id="Line-2-Copy-8" transform="translate(1.000000, 2.500000) rotate(-270.000000) translate(-1.000000, -2.500000) "></line>
+                    </g>
+                </g>
+                <g id="Horizontal-big" transform="translate(0.500000, 45.500000)" stroke="#A7A7A7" stroke-width="3">
+                    <line x1="180.5" y1="-42.5" x2="180.5" y2="314.5" id="Line" transform="translate(180.500000, 136.000000) rotate(-90.000000) translate(-180.500000, -136.000000) "></line>
+                    <line x1="180" y1="-88" x2="180" y2="270" id="Line-Copy" transform="translate(180.000000, 91.000000) rotate(-90.000000) translate(-180.000000, -91.000000) "></line>
+                    <line x1="179.5" y1="-133" x2="180" y2="225" id="Line-Copy-2" transform="translate(180.000000, 46.000000) rotate(-90.000000) translate(-180.000000, -46.000000) "></line>
+                    <line x1="180.5" y1="-173.5" x2="180.5" y2="175.5" id="Line-Copy-3" transform="translate(180.500000, 1.000000) rotate(-90.000000) translate(-180.500000, -1.000000) "></line>
+                    <line x1="180" y1="2" x2="180" y2="360" id="Line-Copy-4" transform="translate(180.000000, 181.000000) rotate(-90.000000) translate(-180.000000, -181.000000) "></line>
+                    <line x1="180" y1="47" x2="180" y2="405" id="Line-Copy-5" transform="translate(180.000000, 226.000000) rotate(-90.000000) translate(-180.000000, -226.000000) "></line>
+                    <line x1="180.5" y1="97.5" x2="180.5" y2="444.5" id="Line-Copy-6" transform="translate(180.500000, 271.000000) rotate(-90.000000) translate(-180.500000, -271.000000) "></line>
+                </g>
+                <g id="vertical-big" transform="translate(47.000000, 0.000000)" stroke="#A7A7A7" stroke-width="3">
+                    <line x1="135.5" y1="1.5" x2="135.5" y2="362.5" id="Line"></line>
+                    <line x1="180.5" y1="0.5" x2="180.5" y2="361.5" id="Line-Copy"></line>
+                    <line x1="225" y1="0.5" x2="225.5" y2="315.5" id="Line-Copy-2"></line>
+                    <line x1="270.5" y1="6.5" x2="270.5" y2="315.5" id="Line-Copy-3"></line>
+                    <line x1="90.5" y1="0.5" x2="90.5" y2="361.5" id="Line-Copy-4"></line>
+                    <line x1="45.5" y1="0.5" x2="45.5" y2="361.5" id="Line-Copy-5"></line>
+                    <line x1="0.5" y1="5.5" x2="0.5" y2="355.5" id="Line-Copy-6"></line>
+                </g>
+            </g>
+            <g id="numberings" transform="translate(11.000000, 10.500000)" fill="#A7A7A7" font-family="SpaceGrotesk-SemiBold, Space Grotesk" font-size="7" font-weight="500" letter-spacing="0.013125">
+                <g id="number-4" transform="translate(59.000000, 382.000000)">
+                    <text id="0">
+                        <tspan x="0" y="7">0</tspan>
+                    </text>
+                    <text id="1">
+                        <tspan x="46" y="7">1</tspan>
+                    </text>
+                    <text id="2">
+                        <tspan x="90" y="7">2</tspan>
+                    </text>
+                    <text id="3">
+                        <tspan x="135.5" y="7">3</tspan>
+                    </text>
+                    <text id="4">
+                        <tspan x="180.5" y="7">4</tspan>
+                    </text>
+                </g>
+                <g id="number-3" transform="translate(197.000000, 5.000000) rotate(-180.000000) translate(-197.000000, -5.000000) translate(59.500000, 0.000000)">
+                    <text id="1">
+                        <tspan x="45" y="7">1</tspan>
+                    </text>
+                    <text id="0">
+                        <tspan x="0" y="7">0</tspan>
+                    </text>
+                    <text id="2">
+                        <tspan x="90" y="7">2</tspan>
+                    </text>
+                    <text id="3">
+                        <tspan x="135" y="7">3</tspan>
+                    </text>
+                    <text id="4">
+                        <tspan x="179.5" y="7">4</tspan>
+                    </text>
+                    <text id="5">
+                        <tspan x="224.5" y="7">5</tspan>
+                    </text>
+                    <text id="6">
+                        <tspan x="269.5" y="8">6</tspan>
+                    </text>
+                </g>
+                <g id="number-2" transform="translate(0.000000, 60.500000)">
+                    <text id="1" transform="translate(5.500000, 47.000000) rotate(-270.000000) translate(-5.500000, -47.000000) ">
+                        <tspan x="3.5" y="49.5">1</tspan>
+                    </text>
+                    <text id="0" transform="translate(4.500000, 2.500000) rotate(-270.000000) translate(-4.500000, -2.500000) ">
+                        <tspan x="2" y="5">0</tspan>
+                    </text>
+                    <text id="2" transform="translate(5.500000, 92.500000) rotate(-270.000000) translate(-5.500000, -92.500000) ">
+                        <tspan x="3" y="95">2</tspan>
+                    </text>
+                    <text id="3" transform="translate(5.500000, 137.500000) rotate(-270.000000) translate(-5.500000, -137.500000) ">
+                        <tspan x="3" y="140">3</tspan>
+                    </text>
+                    <text id="4" transform="translate(5.500000, 182.000000) rotate(-270.000000) translate(-5.500000, -182.000000) ">
+                        <tspan x="3" y="184.5">4</tspan>
+                    </text>
+                    <text id="5" transform="translate(5.500000, 227.000000) rotate(-270.000000) translate(-5.500000, -227.000000) ">
+                        <tspan x="3" y="229.5">5</tspan>
+                    </text>
+                    <text id="6" transform="translate(5.500000, 271.500000) rotate(-270.000000) translate(-5.500000, -271.500000) ">
+                        <tspan x="3" y="274">6</tspan>
+                    </text>
+                </g>
+                <g id="number-1" transform="translate(384.000000, 195.500000) rotate(-180.000000) translate(-384.000000, -195.500000) translate(379.000000, 58.500000)">
+                    <text id="1" transform="translate(5.500000, 47.000000) rotate(-270.000000) translate(-5.500000, -47.000000) ">
+                        <tspan x="3.5" y="49.5">1</tspan>
+                    </text>
+                    <text id="0" transform="translate(4.500000, 2.500000) rotate(-270.000000) translate(-4.500000, -2.500000) ">
+                        <tspan x="2" y="5">0</tspan>
+                    </text>
+                    <text id="2" transform="translate(5.500000, 92.500000) rotate(-270.000000) translate(-5.500000, -92.500000) ">
+                        <tspan x="3" y="95">2</tspan>
+                    </text>
+                    <text id="3" transform="translate(5.500000, 137.500000) rotate(-270.000000) translate(-5.500000, -137.500000) ">
+                        <tspan x="3" y="140">3</tspan>
+                    </text>
+                    <text id="4" transform="translate(5.500000, 182.000000) rotate(-270.000000) translate(-5.500000, -182.000000) ">
+                        <tspan x="3" y="184.5">4</tspan>
+                    </text>
+                    <text id="5" transform="translate(5.500000, 227.000000) rotate(-270.000000) translate(-5.500000, -227.000000) ">
+                        <tspan x="3" y="229.5">5</tspan>
+                    </text>
+                    <text id="6" transform="translate(5.500000, 271.500000) rotate(-270.000000) translate(-5.500000, -271.500000) ">
+                        <tspan x="3" y="274">6</tspan>
+                    </text>
+                </g>
+            </g>
+            <rect id="Line-Rectangle" stroke="#A7A7A7" stroke-width="3" x="26.5" y="24.5" width="359" height="363" rx="74"></rect>
+        </g>
+        <g id="Bird" transform="translate(45.047380, 5.896333)">
+            <g id="Path-8" transform="translate(132.234858, 353.898124) scale(-1, 1) rotate(17.000000) translate(-132.234858, -353.898124) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+            </g>
+            <g id="Path-7" transform="translate(52.178947, 122.217718) scale(-1, 1) rotate(17.000000) translate(-52.178947, -122.217718) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+            </g>
+            <g id="Path-4" transform="translate(122.433352, 122.325806) scale(-1, 1) rotate(17.000000) translate(-122.433352, -122.325806) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+            </g>
+            <g id="Path" transform="translate(337.309952, 191.745799) scale(-1, 1) rotate(17.000000) translate(-337.309952, -191.745799) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                <use fill="url(#linearGradient-10)" fill-rule="evenodd" xlink:href="#path-11"></use>
+            </g>
+            <g id="Path-2" transform="translate(302.469251, 205.168196) scale(-1, 1) rotate(17.000000) translate(-302.469251, -205.168196) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
+                <use fill="url(#linearGradient-13)" fill-rule="evenodd" xlink:href="#path-14"></use>
+            </g>
+            <g id="Path-3" transform="translate(210.220314, 174.749617) scale(-1, 1) rotate(17.000000) translate(-210.220314, -174.749617) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-16"></use>
+            </g>
+            <g id="Path-5" transform="translate(212.577171, 237.032287) scale(-1, 1) rotate(17.000000) translate(-212.577171, -237.032287) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-18"></use>
+            </g>
+            <g id="Path-6" transform="translate(109.744944, 307.558963) scale(-1, 1) rotate(17.000000) translate(-109.744944, -307.558963) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-21"></use>
+                <use fill="url(#linearGradient-20)" fill-rule="evenodd" xlink:href="#path-21"></use>
+            </g>
+        </g>
+        <text id="Canvasbird" font-family="SpaceGrotesk-Bold, Space Grotesk" font-size="10" font-weight="bold" letter-spacing="0.01875" fill="#A7A7A7">
+            <tspan x="310" y="408">Canvasbird</tspan>
+        </text>
+        <text id="Open-Source-Communit" font-family="SpaceGrotesk-Bold, Space Grotesk" font-size="7" font-weight="bold" letter-spacing="0.013125" fill="#A7A7A7">
+            <tspan x="310" y="420">Open Source Community</tspan>
+        </text>
+    </g>
+</svg>

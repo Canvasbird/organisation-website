@@ -1,0 +1,33 @@
+<div id="navbar" >
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+    <a class="navbar-brand" routerLink="/home" fragment="main">
+      <img src="../../../assets/canvasbird/Canvas Bird.svg" width="38" height="38" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item " [class.active]="mainActive">
+          <a class="nav-link" routerLink="/home" fragment="main" (click)="onToggle('home')">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" [class.active]="projectActive">
+          <a class="nav-link" routerLink="/home" fragment="projects" (click)="onToggle('project')">Projects</a>
+        </li>
+        <li class="nav-item" [class.active]="joinusActive">
+          <a class="nav-link" routerLink="/home" fragment="join-us" (click)="onToggle('joinus')">Join Us</a>
+        </li>
+        <li class="nav-item" [class.active]="teamActive">
+          <a class="nav-link" routerLink="/team" (click)="onToggle('team')">Team</a>
+        </li>
+        <li class="nav-item" [class.active]="contributeActive">
+          <a class="nav-link" routerLink="/home" fragment="contribute" (click)="onToggle('contribute')">Contribute</a>
+        </li>
+        <li class="nav-item" [class.active]="contactActive">
+          <a class="nav-link" routerLink="/home" fragment="contact" (click)="onToggle('contact')">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

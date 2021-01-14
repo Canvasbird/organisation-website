@@ -1,18 +1,574 @@
+section{
+  // height: 75vh;
+  height: 100vh;
+  .container {
+    position: relative;
+    top: 10rem;
+  }
+}
+
+// ********************************************************************************************
+
+
+// *************************************************************************************
+
+.title {
+  font-size: calc(100% + 1vw + 1vh);
+  text-transform:uppercase;
+  font-weight: 500;
+}
+
+a { color: rgba(128,208,199,1); text-decoration: none; }
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+// *********************************** main section *****************************************
 #main {
-  .img-logo{
-    width:70%;
+
+  .left {
+    text-align: center;
+  }
+  .logo{
+    box-shadow: 0 8px 10px -6px black;
+    width: 50%;
+  }
+
+  .canvasbird {
+    text-align: center;
   }
 
   .font {
     // font-family: 'Harmattan', sans-serif;
-    // font-weight: 700;
-    // font-size: 90%;
+    font-weight: 700;
+    font-size: 90%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     font-size: calc(2.6vw + 2.6vh);;
+
+  }
+
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
   }
 }
 
-#know-more{
+.font-tag {
+  opacity: 60%;
+  margin-bottom: 2rem;
+}
+
+.text-ani {
+  background: rgb(179,227,221);
+    background: linear-gradient(90deg, rgba(179,227,221,1) 0%, rgba(128,208,199,1) 20%, rgba(0,147,233,1) 40%, rgba(0,147,233,1) 60%, rgba(128,208,199,1) 80%, rgba(179,227,221,1) 100%);
+    /* Set the background size and repeat properties. */
+    background-size: 200% auto;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-clip: text;
+
+    animation: shine 5s linear infinite;
+}
+
+.know-more-btn {
+  background: rgb(179,227,221);
+    background: linear-gradient(90deg, rgba(179,227,221,1) 0%, rgba(128,208,199,1) 20%, rgba(0,147,233,1) 40%, rgba(0,147,233,1) 60%, rgba(128,208,199,1) 80%, rgba(179,227,221,1) 100%);
+    /* Set the background size and repeat properties. */
+    background-size: 200% auto;
+    background-repeat: repeat;
+
+    animation: shine 5s linear infinite;
+  border-radius: 25px;
+
+
+}
+
+a button {
+  font-size: 15px;
+  color: white;
+  font-weight:700;
+  text-decoration: none;
+}
+
+.know-more-btn:hover {
+  animation: shine 0s linear;
+}
+
+// ******************************* know section *******************************************
+
+.know-more{
+
+  box-shadow: 0 3px 6px 3px black;
+  // margin-top: 10rem;
   .border-rad {
     border-radius:10px;
+  }
+
+
+}
+
+.know-more-text {
+  display: inline-block;
+  font-size: 20px;
+  opacity: 70%;
+}
+
+
+.heading {
+  font-size: 40px;
+  text-transform:uppercase;
+  font-weight: 500;
+}
+
+
+section#know-more{
+  height: 150vh;
+}
+
+#know-more .container {
+  position: relative;
+  top: 5rem;
+}
+
+
+#know-more .programs {
+  position: relative;
+  top: 15rem;
+  width: 200px;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+
+  // width: 100%;
+  // height: 100%;
+  width: 200px;
+  height: 200px;
+
+
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+ #know-more .programs:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+#know-more img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+
+}
+
+#know-more .title {
+  position: absolute;
+  // width: 500px;
+  top: 5rem;
+
+  // font-weight: 700;
+  // font-size: 30px;
+  text-align: center;
+  // text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+  font-size: 40px;
+  text-transform:uppercase;
+  font-weight: 500;
+}
+
+#know-more .programs:hover .title {
+  top: 90px;
+}
+
+#know-more .button {
+  position: absolute;
+  width: 200px;
+  padding-bottom: 10px;
+  top: 160px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+#know-more .button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+  text-decoration: none;
+}
+
+#know-more .programs:hover .button {
+  opacity: 1;
+}
+
+
+// ********************************** projects section ********************************************
+
+#projects .container {
+  position: relative;
+  top: 5rem;
+}
+
+.project-hovereffect {
+  width: 50%;
+  height: 70%;
+  // float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: rgba(128,208,199,0.2);
+  border-radius: 25px;
+}
+
+.project-hovereffect .projects {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.project-hovereffect .canvas-title {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  box-shadow: 0 8px 10px -6px black;
+  border-radius: 15px;
+}
+
+.project-hovereffect:hover .canvas-title{
+  opacity: 1 ;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.project-hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.project-hovereffect:hover img {
+  background: rgba(0, 0, 0,0.2);
+  opacity: 1;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.project-hovereffect h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.project-hovereffect:hover h2:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.project-hovereffect p{
+  color: #FFF;
+  opacity: 0;
+  font-size: 18px;
+  padding: 1em;
+  font-weight: 470;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.project-hovereffect h2 {
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  overflow: hidden;
+  padding: 1rem 0;
+  background-color: transparent;
+  font-weight: 700;
+
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.project-hovereffect:hover p{
+  opacity: 1 ;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.project-hovereffect:hover h2 {
+  opacity: 1 ;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.project-hovereffect .icons{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 15px 5px;
+}
+.icons a {
+  padding: 5px;
+}
+
+// *************************************** join-us section ************************************
+
+
+#join-us .container {
+  position: relative;
+  top: 5rem;
+}
+
+
+
+// **************************************** contribute section ************************************************
+
+#contribute .container {
+  position: relative;
+  top: 5rem;
+}
+
+#contribute .button {
+  text-align: center;
+
+}
+
+
+
+
+// ************************************* contact section ****************************************
+
+
+
+#contact .container {
+  position: relative;
+  top: 5rem;
+}
+
+
+.contact {
+  padding: 10px;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+#contact button, input, select, textarea {
+  color: rgba(0,147,233,1);
+  font: inherit;
+  margin: 0;
+}
+
+#contact input {
+  line-height: normal;
+}
+
+#contact textarea {
+  overflow: auto;
+}
+
+.contact-box {
+  // border: solid 3px #122293;
+  margin: 0 auto;
+  max-width: 650px;
+  max-height: 650px;
+  position: relative;
+  width: 100%;
+}
+
+form {
+  padding: 45px;
+}
+
+#contact h2 {
+  color: #122293;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+#contact input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #122293;
+	color: #122293;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#contact input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #122293;
+}
+
+
+
+#contact .submit {
+  text-align: center;
+  width: auto;
+}
+
+#contact .submit button {
+  font-size: 15px;
+  color: white;
+  font-weight:500;
+  width: 400px;
+  text-decoration: none;
+
+
+}
+
+#form_button:hover {
+  background: #122293;
+  color: #ffffff;
+}
+
+
+
+// ********************************media-queries***********************************
+
+@media only screen and (max-width: 768px) {
+
+  section{
+    height: 75vh;
+  }
+
+  #main {
+    .left {
+      position: relative;
+      top: 0.4rem;
+    }
+    .canvasbird {
+      margin-top: 5rem ;
+    }
+  }
+
+  .title {
+    padding: 0 10px;
+  }
+
+  .project-hovereffect {
+    width: auto;
+  }
+  .project-hovereffect h2 {
+    padding: 5px 2em;
+    font-size: 25px;
+  }
+  .project-hovereffect p {
+    padding: 5px 2px;
   }
 }
