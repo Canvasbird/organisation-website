@@ -1,0 +1,25 @@
+footer {
+  background: rgb(179,227,221);
+  background: linear-gradient(90deg, rgba(179,227,221,1) 0%, rgba(128,208,199,1) 20%, rgba(0,147,233,1) 40%, rgba(0,147,233,1) 60%, rgba(128,208,199,1) 80%, rgba(179,227,221,1) 100%);
+  /* Set the background size and repeat properties. */
+  background-size: 200% auto;
+  background-repeat: repeat;
+  // color: black;
+  font-size: 16px;
+  padding: 20px;
+  padding-bottom: 0px;
+
+  ul{
+    list-style-type: none;
+  }
+}
+
+.image-logo {
+  margin: 0px;
+}
+
+@media (max-width: 576px) {
+  .margin-top {
+    margin-top: 10px !important;
+  }
+}

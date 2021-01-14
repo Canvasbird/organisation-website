@@ -132,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "canvasbird-website"
+  "defaultProject": "canvasbird-website",
+  "cli": {
+    "analytics": false
+  }
 }
