@@ -1,7 +1,7 @@
 # Canvasbird Website
 
 <p align="center">
-<img src="https://github.com/Canvasbird/organisation-website/tree/master/src/assets/canvasbird/Canvasbird.png" alt="Canvasbird Cover" width="800">
+<img src="https://github.com/Canvasbird/organisation-website/blob/master/src/assets/canvasbird/Canvasbird.png" alt="Canvasbird Cover" width="800">
 </p>
 
 ## Dependencies🗃:
