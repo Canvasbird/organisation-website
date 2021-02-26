@@ -12,7 +12,7 @@
 <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat-square&amp;logo=amazon-aws" alt="Amazon AWS" class="screenshot"></p>
 
 
-## Development server
+## Run The Development server💻:
 
 - Fork the repo
 - Clone it on your local
